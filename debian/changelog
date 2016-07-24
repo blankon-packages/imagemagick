@@ -1,3 +1,9 @@
+imagemagick (8:6.8.9.9-5.1+b1blankon2) tambora; urgency=medium
+
+  * disable Mneu Category
+
+ -- Mijortsa <mijortsa@icik2.blankon.in>  Sun, 24 Jul 2016 18:07:25 +0700
+
 imagemagick (8:6.8.9.9-5.1+b1blankon1) tambora; urgency=medium
 
   * Rebuild
