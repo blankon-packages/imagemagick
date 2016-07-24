@@ -24,6 +24,3 @@ index 864c706..968e38d 100644
              (const IndexPacket *) NULL,&transpix);
          (void) TransparentPaintImage(image,&transpix,(Quantum)
            TransparentOpacity,MagickFalse);
--- 
-2.1.4
-

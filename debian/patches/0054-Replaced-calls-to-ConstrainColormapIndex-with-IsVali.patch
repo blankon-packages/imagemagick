@@ -101,6 +101,3 @@ index 8d50b7e..74f4968 100644
                if (SyncAuthenticPixels(image,exception) == MagickFalse)
                  break;
                if (image->previous == (Image *) NULL)
--- 
-2.1.4
-

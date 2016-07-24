@@ -65,6 +65,3 @@ index 263d52b..ed6d613 100644
      }
  
    else /* image->storage_class != DirectClass */
--- 
-2.1.4
-

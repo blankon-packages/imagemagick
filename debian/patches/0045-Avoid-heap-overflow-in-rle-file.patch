@@ -22,6 +22,3 @@ index 7341919..8d50b7e 100644
          if (colormap == (unsigned char *) NULL)
            ThrowReaderException(ResourceLimitError,"MemoryAllocationFailed");
          p=colormap;
--- 
-2.1.4
-

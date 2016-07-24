@@ -28,6 +28,3 @@ index 25eb765..c9c81d4 100644
            if ((ssize_t) (offset+number_bytes) < offset)
              continue;  /* prevent overflow */
            if ((size_t) (offset+number_bytes) > length)
--- 
-2.1.4
-

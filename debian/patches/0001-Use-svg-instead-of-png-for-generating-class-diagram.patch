@@ -81,6 +81,3 @@ index 2b4bd06..6912e06 100644
  
  # If DOT_IMAGE_FORMAT is set to svg, then this option can be set to YES to
  # enable generation of interactive SVG images that allow zooming and panning.
--- 
-2.1.4
-

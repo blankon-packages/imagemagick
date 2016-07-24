@@ -29,6 +29,3 @@ index 07234b7..91445ec 100644
      if ((sun_info.height != 0) && (sun_info.width != extent/sun_info.height))
        ThrowReaderException(CorruptImageError,"ImproperImageHeader");
      if ((sun_info.type != RT_STANDARD) && (sun_info.type != RT_ENCODED) &&
--- 
-2.1.4
-

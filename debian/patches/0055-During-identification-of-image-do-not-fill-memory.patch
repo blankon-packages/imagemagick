@@ -25,6 +25,3 @@ index 1fe12fe..79033a6 100644
      TIFFGetProperties(tiff,image);
      option=GetImageOption(image_info,"tiff:exif-properties");
      if ((option == (const char *) NULL) ||
--- 
-2.1.4
-

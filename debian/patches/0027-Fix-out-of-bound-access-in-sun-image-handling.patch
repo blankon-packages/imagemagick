@@ -24,6 +24,3 @@ index 9ab412b..1d974db 100644
            if (((sun_info.type == RT_ENCODED) &&
                 (length > (bytes_per_line*image->rows))) ||
                ((sun_info.type != RT_ENCODED) && (length > sun_info.length)))
--- 
-2.1.4
-

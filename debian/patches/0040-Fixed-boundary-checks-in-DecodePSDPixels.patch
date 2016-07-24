@@ -189,6 +189,3 @@ index 8c99dc9..eaeb6bc 100644
    if (compact_pixels == (unsigned char *) NULL)
      {
        pixels=(unsigned char *) RelinquishMagickMemory(pixels);
--- 
-2.1.4
-

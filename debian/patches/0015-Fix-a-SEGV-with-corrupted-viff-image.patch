@@ -191,6 +191,3 @@ index 02620a8..51cdf5e 100644
      (void) WriteBlobMSBLong(image,(unsigned int) viff_info.y_bits_per_pixel);
      (void) WriteBlobMSBLong(image,viff_info.location_type);
      (void) WriteBlobMSBLong(image,viff_info.location_dimension);
--- 
-2.1.4
-

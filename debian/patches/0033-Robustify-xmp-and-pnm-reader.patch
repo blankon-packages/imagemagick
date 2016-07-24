@@ -168,6 +168,3 @@ index ad5ab6a..d8045fc 100644
        *p++=(unsigned char) value;
      }
    /*
--- 
-2.1.4
-

@@ -178,6 +178,3 @@ index 69490e0..117538d 100644
    (void) WriteBlobByte(image,0x40);
    (void) WriteBlobByte(image,0x6f);
    (void) WriteBlobByte(image,0x80);
--- 
-2.1.4
-

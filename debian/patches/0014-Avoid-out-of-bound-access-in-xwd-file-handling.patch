@@ -34,6 +34,3 @@ index 2949a17..19e4e71 100644
                q++;
              }
              if (SyncAuthenticPixels(image,exception) == MagickFalse)
--- 
-2.1.4
-

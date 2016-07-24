@@ -140,6 +140,3 @@ index 0df9df3..f051e03 100644
                      DuplicateBlob(flip_image,image);
                      (void) RemoveLastImageFromList(&image);
                      AppendImageToList(&image,flip_image);
--- 
-2.1.4
-

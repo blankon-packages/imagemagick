@@ -64,6 +64,3 @@ index 4cd4caf..02251b3 100644
            for (y=0; y < (ssize_t) image->rows; y++)
            {
              q=QueueAuthenticPixels(image,0,y,image->columns,1,exception);
--- 
-2.1.4
-

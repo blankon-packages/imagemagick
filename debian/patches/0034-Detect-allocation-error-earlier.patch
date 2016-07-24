@@ -25,6 +25,3 @@ index 20afea3..129b769 100644
      ThrowBinaryException(ResourceLimitError,"PixelCacheAllocationFailed",
        image->filename);
    cache_info->length=length;
--- 
-2.1.4
-

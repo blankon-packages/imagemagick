@@ -37,6 +37,3 @@ index 34d3511..2f43834 100644
      *destination++=(*p++);
    *destination='\0';
    return((size_t) (p-source));
--- 
-2.1.4
-

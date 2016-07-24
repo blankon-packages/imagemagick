@@ -170,6 +170,3 @@ index a7dd842..991d4bb 100644
          ThrowFileException(exception,FileOpenError,"UnableToWriteFile",
            image->filename);
          image=DestroyImageList(image);
--- 
-2.1.4
-

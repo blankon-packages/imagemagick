@@ -35,6 +35,3 @@ index d5e1e01..efcdac9 100644
          continue;
        }
      if (LocaleNCompare(BeginXMPPacket,command,strlen(BeginXMPPacket)) == 0)
--- 
-2.1.4
-

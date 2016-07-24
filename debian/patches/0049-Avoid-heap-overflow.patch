@@ -101,6 +101,3 @@ index ff993bd..b7b227a 100644
    status=SetQuantumDepth(image,quantum_info,image->depth);
    quantum_info->endian=image->endian;
    if (status == MagickFalse)
--- 
-2.1.4
-

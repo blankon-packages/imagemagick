@@ -36,6 +36,3 @@ index 03c0b67..41da718 100644
  #if defined(__cplusplus) || defined(c_plusplus)
  }
  #endif
--- 
-2.1.4
-

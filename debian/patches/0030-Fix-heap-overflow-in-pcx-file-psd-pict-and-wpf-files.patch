@@ -127,6 +127,3 @@ index 0faaf2d..34d3511 100644
          if (next != (char *) NULL)
            (void) CopyXPMColor(target,q,MagickMin((size_t) (next-q),
              MaxTextExtent));
--- 
-2.1.4
-

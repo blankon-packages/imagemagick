@@ -26,6 +26,3 @@ index 03f5fe5..1d6817e 100644
        ThrowReaderException(CorruptImageError,"ImproperImageHeader");
      for (depth=1; GetQuantumRange(depth) < max_value; depth++) ;
      image->depth=depth;
--- 
-2.1.4
-

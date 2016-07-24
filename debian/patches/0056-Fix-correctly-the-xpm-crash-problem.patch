@@ -57,6 +57,3 @@ index 2f43834..44ed9ef 100644
            j=(ssize_t) GetValueFromSplayTree(xpm_colors,key);
            if (image->storage_class == PseudoClass)
              SetPixelIndex(indexes+x,j);
--- 
-2.1.4
-

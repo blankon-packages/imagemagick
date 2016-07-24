@@ -44,6 +44,3 @@ index 117538d..af6bfec 100644
    runlength=(unsigned char *) AcquireQuantumMemory(2UL*packets,
      sizeof(*runlength));
    if (runlength == (unsigned char *) NULL)
--- 
-2.1.4
-

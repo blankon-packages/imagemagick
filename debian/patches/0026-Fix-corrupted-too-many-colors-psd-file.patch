@@ -31,6 +31,3 @@ index d818fe3..2aff362 100644
              ThrowReaderException(ResourceLimitError,"MemoryAllocationFailed");
            for (i=0; i < (ssize_t) image->colors; i++)
              image->colormap[i].red=ScaleCharToQuantum((unsigned char)
--- 
-2.1.4
-

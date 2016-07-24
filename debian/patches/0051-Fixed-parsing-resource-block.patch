@@ -72,6 +72,3 @@ index eaeb6bc..e0dc766 100644
        blocks=(unsigned char *) RelinquishMagickMemory(blocks);
      }
    /*
--- 
-2.1.4
-

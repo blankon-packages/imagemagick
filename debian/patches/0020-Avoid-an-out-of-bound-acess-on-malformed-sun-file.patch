@@ -107,6 +107,3 @@ index 165c17a..4cd4caf 100644
              p++;
            }
          if ((((image->columns/8)+(image->columns % 8 ? 1 : 0)) % 2) != 0)
--- 
-2.1.4
-

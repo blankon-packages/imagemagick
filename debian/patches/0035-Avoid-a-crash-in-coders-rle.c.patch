@@ -76,6 +76,3 @@ index b690826..fcc718b 100644
                  SetPixelAlpha(q,ScaleCharToQuantum(*p++));
                  q++;
                }
--- 
-2.1.4
-

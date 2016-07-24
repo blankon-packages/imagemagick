@@ -49,6 +49,3 @@ index 3fe0dec..505a37f 100644
      value+=c-(int) '0';
      c=ReadBlobByte(image);
      if (c == EOF)
--- 
-2.1.4
-

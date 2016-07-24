@@ -23,6 +23,3 @@ index 0e96157..03c0b67 100644
      return((IndexPacket) index);
    (void) ThrowMagickException(&image->exception,GetMagickModule(),
      CorruptImageError,"InvalidColormapIndex","`%s'",image->filename);
--- 
-2.1.4
-

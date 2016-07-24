@@ -258,6 +258,3 @@ index 6acd4e9..e48eb9c 100644
          }
          if (SyncAuthenticPixels(image,exception) == MagickFalse)
            break;
--- 
-2.1.4
-

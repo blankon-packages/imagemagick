@@ -191,6 +191,3 @@ index 644afc7..2949a17 100644
          colors[i].red=ScaleQuantumToShort(image->colormap[i].red);
          colors[i].green=ScaleQuantumToShort(image->colormap[i].green);
          colors[i].blue=ScaleQuantumToShort(image->colormap[i].blue);
--- 
-2.1.4
-

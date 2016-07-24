@@ -80,6 +80,3 @@ index f4dec69..8c99dc9 100644
        return(image);
      }
    /*
--- 
-2.1.4
-

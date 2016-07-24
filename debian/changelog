@@ -1,14 +1,61 @@
-imagemagick (8:6.8.9.9-5.1+b1blankon2) tambora; urgency=medium
+imagemagick (8:6.8.9.9-7.3blankon1) tambora; urgency=medium
 
-  * disable Mneu Category
+  * disable Category
 
- -- Mijortsa <mijortsa@icik2.blankon.in>  Sun, 24 Jul 2016 18:07:25 +0700
+ -- Mijortsa <mijortsa@icik2.blankon.in>  Sun, 24 Jul 2016 18:16:53 +0700
 
-imagemagick (8:6.8.9.9-5.1+b1blankon1) tambora; urgency=medium
+imagemagick (8:6.8.9.9-7.2) unstable; urgency=medium
 
-  * Rebuild
+  * Non-maintainer upload.
+  * Remove libjasper-dev dependencies.  Closes: #818203
 
- -- Mahyuddin <yudi.al@gmail.com>  Fri, 21 Aug 2015 06:22:12 +0700
+ -- Mattia Rizzolo <mattia@debian.org>  Mon, 27 Jun 2016 12:55:02 +0000
+
+imagemagick (8:6.8.9.9-7.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * 0082-Fix-CVE-2016-5118-disable-filename-pipes.patch:
+    + Fix CVE-2016-5118: disable pipes in filenames to avoid arbitrary
+      command execution. Closes: #825799.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Wed, 01 Jun 2016 21:48:10 +0200
+
+imagemagick (8:6.8.9.9-7) unstable; urgency=low
+
+  * Fix various minor security issues 
+    - Fix an integer overflow that can lead to a buffer overrun
+      in the icon parsing code (LP: #1459747, closes: #806441)
+    - Fix an integer overflow that can lead to a double free in
+      pict parsing (LP: #1448803, closes: #806441).
+    - Memory Leak while handle psd file (closes: #811308)
+      http://www.imagemagick.org/discourse-server/viewtopic.php?f=3&t=28791
+    - IM 6.9.2 crash with some PNG (closes: #811308, LP: #1492881)
+      http://www.imagemagick.org/discourse-server/viewtopic.php?f=3&t=28466
+    - Null pointer access in magick/constitute.c (closes: #811308)
+      https://github.com/ImageMagick/ImageMagick/pull/34
+    - PixelColor off by one on i386 (closes: #811308)
+      https://github.com/ImageMagick/ImageMagick/issues/54
+    - Fixed other memory leaks (closes: #811308)
+
+ -- Vincent Fourmond <fourmond@debian.org>  Sun, 17 Jan 2016 21:18:19 +0100
+
+imagemagick (8:6.8.9.9-6) unstable; urgency=high
+
+  * Fix build on mips by printing progress (Closes: #770009).
+  * Fix a few security bugs: (closes: #799524)
+    - A DOS on specially crafted MIFF file (TEMP-0000000-FDAC72).
+    - A DOS on specially crafted Vicar file (TEMP-0000000-EEF23C).
+    - A DOS on specially crafted HDR file (TEMP-0000000-7C079F).
+    - A DOS on specially crafted PDB file (TEMP-0000000-2FC21E).
+    - Avoid a null pointer dereference in JNG decoder.
+    - Avoid a DOS for RLE file.
+    - Avoid double free on TGA file.
+    - Avoid a bufer overflow by using field limit in sprintf.
+    - Avoid a stack overflow in fx handling.
+  * Replace density of 1 for JPEG by unknown working around
+    a TeX bug (Closes: #763799).
+
+ -- Bastien Roucariès <roucaries.bastien+debian@gmail.com>  Sat, 12 Sep 2015 23:06:08 +0200
 
 imagemagick (8:6.8.9.9-5.1) unstable; urgency=medium
 

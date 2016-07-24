@@ -59,6 +59,3 @@ index 4a42f5b..cdca011 100644
    artifact=GetImageArtifact(image,"connected-components:verbose");
    if (IsMagickTrue(artifact))
      status=ConnectedComponentsStatistics(component_image,(size_t) n,exception);
--- 
-2.1.4
-

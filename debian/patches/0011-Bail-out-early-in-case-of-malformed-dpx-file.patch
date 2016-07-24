@@ -54,6 +54,3 @@ index 0352855..30d2898 100644
      ThrowReaderException(CorruptImageError,"ImproperImageHeader");
    offset+=2;
    dpx.image.pixels_per_line=ReadBlobLong(image);
--- 
-2.1.4
-

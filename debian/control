@@ -1,7 +1,7 @@
 Source: imagemagick
 Section: graphics
 Priority: optional
-Maintainer: ImageMagick Packaging Team <pkg-gmagick-im-team@lists.alioth.debian.org>
+Maintainer: BlankOn Developers <BlankOn-dev@googlegroups.com>
 Uploaders: Luciano Bello <luciano@debian.org>,
  Daniel Kobras <kobras@debian.org>,
  Nelson A. de Oliveira <naoliv@debian.org>,
@@ -23,7 +23,7 @@ Build-Depends: debhelper (>= 9~),
  libx11-dev, libxext-dev, libxt-dev,
 # for plugins
  ghostscript, libdjvulibre-dev, libexif-dev,
- libjasper-dev, libjpeg-dev,
+ libjpeg-dev,
  libopenexr-dev, libperl-dev, libpng-dev, libtiff-dev,
  libwmf-dev,
 # libgraphviz-dev, incompatible license against fftw
@@ -244,7 +244,7 @@ Depends: libmagickcore-6-headers (= ${source:Version}),
  libmagickcore-6.q16-2 (= ${binary:Version}),
  libmagickcore-6.q16-2-extra (= ${binary:Version}),
  libbz2-dev, libdjvulibre-dev,
- libexif-dev, libfreetype6-dev, libgraphviz-dev, libjasper-dev, libjpeg-dev,
+ libexif-dev, libfreetype6-dev, libgraphviz-dev, libjpeg-dev,
  liblcms2-dev, liblqr-1-0-dev, libltdl-dev, libopenexr-dev, libpng-dev,
  librsvg2-dev, libtiff-dev, libwmf-dev, libx11-dev, libxext-dev, libxml2-dev,
  libxt-dev, zlib1g-dev,

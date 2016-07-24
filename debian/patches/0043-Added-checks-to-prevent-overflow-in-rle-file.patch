@@ -74,6 +74,3 @@ index 4cc6a96..7341919 100644
            for (i=0; i < (ssize_t) operand; i++)
            {
              if ((y < (ssize_t) image->rows) &&
--- 
-2.1.4
-

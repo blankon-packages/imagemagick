@@ -51,6 +51,3 @@ index 0057df2..263d52b 100644
        if (logging != MagickFalse)
          (void) LogMagickEvent(CoderEvent,GetMagickModule(),
            "exit ReadJNGImage() with error");
--- 
-2.1.4
-

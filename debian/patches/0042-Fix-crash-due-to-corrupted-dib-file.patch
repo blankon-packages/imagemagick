@@ -68,6 +68,3 @@ index bc84b41..49213bd 100644
    image->depth=8;
    if ((dib_info.number_colors != 0) || (dib_info.bits_per_pixel < 16))
      {
--- 
-2.1.4
-
