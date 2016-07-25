@@ -1,3 +1,9 @@
+imagemagick (8:6.8.9.9-7.3blankon2) tambora; urgency=medium
+
+  * NoDisplay=true
+
+ -- Mijortsa <mijortsa@icik2.blankon.in>  Mon, 25 Jul 2016 15:04:37 +0700
+
 imagemagick (8:6.8.9.9-7.3blankon1) tambora; urgency=medium
 
   * disable Category
