@@ -1,3 +1,9 @@
+imagemagick (8:6.8.9.9-7.3blankon3) tambora; urgency=medium
+
+  * Support Armhf 
+
+ -- Rahman Yusri Aftian <aftian@blankon.id>  Wed, 21 Sep 2016 17:38:58 +0700
+
 imagemagick (8:6.8.9.9-7.3blankon2) tambora; urgency=medium
 
   * NoDisplay=true
